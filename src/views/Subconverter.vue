@@ -262,7 +262,7 @@ export default {
               {
                 label: "run",
                 value:
-                  "https://raw.githubusercontent.com/vinzst/runrun/main/clash.ini"
+                  "https://raw.githubusercontent.com/vinzst/mess/main/rule.ini"
               },
               {
                 label: "No-Urltest",
