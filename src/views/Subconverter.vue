@@ -254,7 +254,7 @@ export default {
           Loon: "loon",
           ssd: "ssd"
         },
-        backendOptions: [{ value: "http://sub.886600.xyz/sub?" }],
+        backendOptions: [{ value: "https://sub.886600.xyz/sub?" }],
         remoteConfig: [
           {
             label: "universal",
@@ -346,7 +346,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: "http://sub.886600.xyz/sub?",
+        customBackend: "https://sub.886600.xyz/sub?",
         remoteConfig: "run",
         excludeRemarks: "官网|过期|流量|游戏|10倍|3倍率|十倍|倍率X5|x10",
         includeRemarks: "",
