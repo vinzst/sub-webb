@@ -4,7 +4,7 @@
       <el-col>
         <el-card>
           <div slot="header">
-            Subscription Converter
+            小可爱
             <svg-icon icon-class="github" style="margin-left: 20px" @click="goToProject" />
 
             <div style="display: inline-block; position:absolute; right: 20px">{{ backendVersion }}</div>
@@ -241,24 +241,29 @@ export default {
       options: {
         clientTypes: {
           Clash: "clash",
+          v2ray: "v2ray",
+          ss: "ss",
+          ssr: "ssr",
+          QuantumultX: "quanx",
           ClashR: "clashr",
           Surge2: "surge&ver=2",
           Surge3: "surge&ver=3",
           Surge4: "surge&ver=4",
           Quantumult: "quan",
-          QuantumultX: "quanx",
           Surfboard: "surfboard",
           Loon: "loon",
-          ss: "ss",
-          ssr: "ssr",
-          ssd: "ssd",
-          v2ray: "v2ray"
+          ssd: "ssd"
         },
-        backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
+        backendOptions: [{ value: "http://sub.886600.xyz/sub?" }],
         remoteConfig: [
           {
             label: "universal",
             options: [
+              {
+                label: "run",
+                value:
+                  "https://raw.githubusercontent.com/vinzst/runrun/main/clash.ini"
+              },
               {
                 label: "No-Urltest",
                 value:
@@ -341,11 +346,11 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: "",
-        remoteConfig: "",
-        excludeRemarks: "",
+        customBackend: "http://sub.886600.xyz/sub?",
+        remoteConfig: "run",
+        excludeRemarks: "官网|过期|流量|游戏|10倍|3倍率|十倍|倍率X5|x10",
         includeRemarks: "",
-        filename: "",
+        filename: "runrun",
         emoji: true,
         nodeList: false,
         extraset: false,
