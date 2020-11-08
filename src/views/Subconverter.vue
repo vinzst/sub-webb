@@ -346,7 +346,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: "https://sub.886600.xyz/sub?",
+        customBackend: "",
         remoteConfig: "run",
         excludeRemarks: "官网|过期|流量|用户|域名|地址|最新||电报|游戏|10倍|3倍率|十倍|倍率X5|x10",
         includeRemarks: "",
