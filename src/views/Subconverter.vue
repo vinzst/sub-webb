@@ -107,7 +107,7 @@
                         <el-checkbox v-model="form.tpl.clash.doh" label="Clash.DoH"></el-checkbox>
                       </el-row>
                       <el-row>
-                        <el-checkbox v-model="form.insert" label="网易云"></el-checkbox>
+                        <el-checkbox v-model="form.insert" label="小提示"></el-checkbox>
                       </el-row>
                       <el-button slot="reference">定制功能</el-button>
                     </el-popover>
@@ -358,7 +358,7 @@ export default {
         udp: false,
         tfo: false,
         scv: false,
-        fdn: false,
+        fdn: true,
         appendType: false,
         insert: true, // 是否插入默认订阅的节点，对应配置项 insert_url
         new_name: true, // 是否使用 Clash 新字段
