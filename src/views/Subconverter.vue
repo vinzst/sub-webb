@@ -388,7 +388,7 @@ export default {
         clientType: "",
         customBackend: "",
         remoteConfig: "",
-        excludeRemarks: "官网|过期|流量|用户|域名|地址|最新||电报|游戏|10倍|3倍率|十倍|倍率X5|x10",
+        excludeRemarks: "官网|过期|流量|用户|域名|地址|最新||电报|游戏|10倍|3倍率|十倍|倍率X5|x10|-3.0",
         includeRemarks: "",
         filename: "runrun",
         emoji: true,
