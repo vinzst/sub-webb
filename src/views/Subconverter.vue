@@ -285,7 +285,7 @@ export default {
             label: "run",
             options: [
               {
-                label: "ACL4SSR_Online 默认版 分组比较全 (与Github同步)",
+                label: "run",
                 value:
                   "https://raw.githubusercontent.com/vinzst/mess/main/rule.ini"
               }
