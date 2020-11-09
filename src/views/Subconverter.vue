@@ -4,7 +4,7 @@
       <el-col>
         <el-card>
           <div slot="header">
-            订阅转换
+            小可爱
             <svg-icon icon-class="github" style="margin-left: 20px" @click="goToProject" />
             <svg-icon icon-class="telegram" style="margin-left: 20px" @click="gotoTgChannel" />
 
@@ -250,6 +250,9 @@ export default {
       options: {
         clientTypes: {
           "Clash新参数": "clash&new_name=true",
+          v2ray: "v2ray",
+          ssr: "ssr",
+          ss: "ss",
           "ClashR新参数": "clashr&new_name=true",
           Clash: "clash",
           ClashR: "clashr",
@@ -260,10 +263,7 @@ export default {
           QuantumultX: "quanx",
           Surfboard: "surfboard",
           Loon: "loon",
-          ss: "ss",
-          ssr: "ssr",
-          ssd: "ssd",
-          v2ray: "v2ray"
+          ssd: "ssd"
         },
         customBackend: {
           "run": "https://sub.886600.xyz/sub?",
@@ -388,7 +388,7 @@ export default {
         clientType: "",
         customBackend: "",
         remoteConfig: "",
-        excludeRemarks: "官网|过期|流量|用户|域名|地址|最新||电报|游戏|10倍|3倍率|十倍|倍率X5|x10|-3.0",
+        excludeRemarks: "官网|过期|流量|用户|域名|地址|最新|电报|游戏|10倍|3倍率|十倍|倍率X5|x10|-3.0",
         includeRemarks: "",
         filename: "runrun",
         emoji: true,
