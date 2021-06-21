@@ -292,12 +292,12 @@ export default {
 	      {
                 label: "神机手动",
                 value:
-                  "https://raw.githubusercontent.com/vinzst/mess/main/rule.ini"
+                  "https://raw.githubusercontent.com/vinzst/mess/main/rule2.ini"
               },
 	      {
                 label: "A手动",
                 value:
-                  "https://raw.githubusercontent.com/vinzst/mess/main/rule.ini"
+                  "https://raw.githubusercontent.com/vinzst/mess/main/rule3.ini"
               },
             ]
           },
