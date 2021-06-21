@@ -285,10 +285,20 @@ export default {
             label: "run",
             options: [
               {
-                label: "run",
+                label: "神机自动",
                 value:
                   "https://raw.githubusercontent.com/vinzst/mess/main/rule.ini"
-              }
+              },
+	      {
+                label: "神机手动",
+                value:
+                  "https://raw.githubusercontent.com/vinzst/mess/main/rule.ini"
+              },
+	      {
+                label: "A手动",
+                value:
+                  "https://raw.githubusercontent.com/vinzst/mess/main/rule.ini"
+              },
             ]
           },
           {
