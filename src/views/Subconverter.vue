@@ -289,15 +289,10 @@ export default {
                 value:
                   "https://raw.githubusercontent.com/vinzst/mess/main/rule.ini"
               },
-	      {
-                label: "神机手动",
+              {
+                label: "V2Pro",
                 value:
-                  "https://raw.githubusercontent.com/vinzst/mess/main/rule2.ini"
-              },
-	      {
-                label: "A手动",
-                value:
-                  "https://raw.githubusercontent.com/vinzst/mess/main/rule3.ini"
+                  "https://raw.githubusercontent.com/Mazeorz/airports/master/Clash/V2Pro.ini"
               },
             ]
           },
